@@ -1,0 +1,26 @@
+{
+  "name": "angular-devices-detector",
+  "version": "1.0.1",
+  "description": "Angular Devices Detector come with provider that identify the user device and let you choose between two options, identify by user-agent(default) or by viewport(the css way).",
+  "main": "deviceDetecion-service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BnayaZil/angular-devices-detection.git"
+  },
+  "keywords": [
+    "device",
+    "detection",
+    "mobile",
+    "detection",
+    "detection"
+  ],
+  "author": "Bnaya Zilberfarb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BnayaZil/angular-devices-detection/issues"
+  },
+  "homepage": "https://github.com/BnayaZil/angular-devices-detection#readme"
+}
