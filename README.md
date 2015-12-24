@@ -3,6 +3,8 @@ Angular Devices Detector come with provider that identify the user device and le
 
 ## Get Started
 
+#### Install
+
 1. Get Angular-devices-detector in one of the following ways:
 * Clone this repository.
 * And using npm:
@@ -16,6 +18,33 @@ npm install --save angular-devices-detector
 	```
 	var myApp = angular.module('myApp', ['angular-devices-detector']);
 	```
+4. Config ```angular-devices-detector``` look like this:
+	```
+	myApp.conig(['devicesDetectorProvider', function(devicesDetectorProvider){
+		devicesDetectorProvider.init({desktop: 'desktop', mobile: 'mobile'});
+	}]);
 
 
-### congif
+#### Used
+
+1. ```angular-devices-detector``` is provider and he can help you to config your routes for example:
+	```
+		.state('/', {
+			url: '',
+			templateUrl: 'app/templates/homePage_' + devicesDetectorProvider.deviceTitle() + '.html',
+			controller: 'homeCtrl'
+		})
+	```
+	```devicesDetectorProvider.deviceTitle()``` function return you the device title that you config```
+2. ```angular-devices-detector``` also help you to choose the right template/controller in directives for example:
+	```
+	myApp.directive('directiveExample', ['deviceDetector', function(deviceDetector) {
+		var template = 'app/directives/directiveName/directiveName' + devicesDetectorProvider.deviceTitle + 'Template.html';
+		var ctrl = 'controllerName' + devicesDetectorProvider.deviceTitle + 'Ctrl.html';
+		return {
+			replace: true,
+			templateUrl: template,
+			controller: ctrl
+		};
+	}]);
+	```
