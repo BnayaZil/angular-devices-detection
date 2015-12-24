@@ -1,7 +1,7 @@
 {
   "name": "angular-devices-detector",
-  "version": "1.0.1",
-  "description": "Angular Devices Detector come with provider that identify the user device and let you choose between two options, identify by user-agent(default) or by viewport(the css way).",
+  "version": "1.0.3",
+  "description": "Angular Devices Detector come with provider that identify the user device by user-agent.",
   "main": "deviceDetecion-service.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

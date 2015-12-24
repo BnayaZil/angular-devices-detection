@@ -6,7 +6,7 @@ Angular Devices Detector come with provider that identify the user device and le
 #### Install
 
 1. Get Angular-devices-detector in one of the following ways:
-* Clone this repository.
+* Clone this [repository](https://github.com/BnayaZil/angular-devices-detection).
 * And using npm:
 
 ```
