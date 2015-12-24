@@ -40,6 +40,7 @@ myApp.config(['devicesDetectorProvider', function(devicesDetectorProvider){
 })
 ```
 ```devicesDetectorProvider.deviceTitle()``` function return you the device title that you config
+
 2. ```angular-devices-detector``` also help you to choose the right template/controller in directives for example:
 
 ```
