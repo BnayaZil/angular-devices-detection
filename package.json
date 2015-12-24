@@ -1,6 +1,6 @@
 {
   "name": "angular-devices-detector",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Angular Devices Detector come with provider that identify the user device by user-agent.",
   "main": "deviceDetecion-service.js",
   "scripts": {
