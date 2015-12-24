@@ -23,7 +23,7 @@ npm install --save angular-devices-detector
 	myApp.conig(['devicesDetectorProvider', function(devicesDetectorProvider){
 		devicesDetectorProvider.init({desktop: 'desktop', mobile: 'mobile'});
 	}]);
-
+	```
 
 #### Used
 
