@@ -35,7 +35,7 @@ npm install --save angular-devices-detector
 			controller: 'homeCtrl'
 		})
 	```
-	```devicesDetectorProvider.deviceTitle()``` function return you the device title that you config```
+	```devicesDetectorProvider.deviceTitle()``` function return you the device title that you config
 2. ```angular-devices-detector``` also help you to choose the right template/controller in directives for example:
 	```
 	myApp.directive('directiveExample', ['deviceDetector', function(deviceDetector) {
