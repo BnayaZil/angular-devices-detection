@@ -23,8 +23,8 @@ var myApp = angular.module('myApp', ['angular-devices-detector']);
 4. Config ```angular-devices-detector``` look like this:
 
 ```
-myApp.conig(['devicesDetectorProvider', function(devicesDetectorProvider){
-devicesDetectorProvider.init({desktop: 'desktop', mobile: 'mobile'});
+myApp.config(['devicesDetectorProvider', function(devicesDetectorProvider){
+	devicesDetectorProvider.init({desktop: 'desktop', mobile: 'mobile'});
 }]);
 ```
 
