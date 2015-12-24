@@ -30,7 +30,7 @@ myApp.config(['devicesDetectorProvider', function(devicesDetectorProvider){
 
 #### Used
 
-1. ```angular-devices-detector``` is provider and he can help you to config your routes for example:
+* ```angular-devices-detector``` is provider and he can help you to config your routes for example:
 
 ```
 .state('/', {
@@ -41,7 +41,7 @@ myApp.config(['devicesDetectorProvider', function(devicesDetectorProvider){
 ```
 ```devicesDetectorProvider.deviceTitle()``` function return you the device title that you config
 
-2. ```angular-devices-detector``` also help you to choose the right template/controller in directives for example:
+* ```angular-devices-detector``` also help you to choose the right template/controller in directives for example:
 
 ```
 myApp.directive('directiveExample', ['deviceDetector', function(deviceDetector) {
