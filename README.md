@@ -24,7 +24,7 @@ var myApp = angular.module('myApp', ['angular-devices-detector']);
 
 ```
 myApp.conig(['devicesDetectorProvider', function(devicesDetectorProvider){
-	devicesDetectorProvider.init({desktop: 'desktop', mobile: 'mobile'});
+devicesDetectorProvider.init({desktop: 'desktop', mobile: 'mobile'});
 }]);
 ```
 
@@ -33,11 +33,11 @@ myApp.conig(['devicesDetectorProvider', function(devicesDetectorProvider){
 1. ```angular-devices-detector``` is provider and he can help you to config your routes for example:
 
 ```
-	.state('/', {
-		url: '',
-		templateUrl: 'app/templates/homePage_' + devicesDetectorProvider.deviceTitle() + '.html',
-		controller: 'homeCtrl'
-	})
+.state('/', {
+	url: '',
+	templateUrl: 'app/templates/homePage_' + devicesDetectorProvider.deviceTitle() + '.html',
+	controller: 'homeCtrl'
+})
 ```
 ```devicesDetectorProvider.deviceTitle()``` function return you the device title that you config
 2. ```angular-devices-detector``` also help you to choose the right template/controller in directives for example:
