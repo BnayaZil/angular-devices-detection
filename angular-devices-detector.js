@@ -22,7 +22,7 @@
                 detector(navigator.userAgent||navigator.vendor||window.opera, obj);
             },
             isMobile: function() {
-                if(_.isUndefined(isMobile)) {
+                if(typeof isMobile === "undefined") {
                     detector();
                     return isMobile;
                 } else {
@@ -30,7 +30,7 @@
                 }
             },
             isDesktop: function() {
-                if(_.isUndefined(isDesktop)) {
+                if(typeof isDesktop === "undefined") {
                     detector();
                     return isDesktop;
                 } else {
@@ -38,7 +38,7 @@
                 }
             },
             isTablet: function() {
-                if(_.isUndefined(isTablet)) {
+                if(typeof isTablet === "undefined") {
                     detector();
                     return isTablet;
                 } else {
@@ -51,7 +51,7 @@
             $get: function(){
                 return {
                     isMobile: function() {
-                        if(_.isUndefined(isMobile)) {
+                        if(typeof isMobile === "undefined") {
                             detector();
                             return isMobile;
                         } else {
@@ -59,7 +59,7 @@
                         }
                     },
                     isDesktop: function() {
-                        if(_.isUndefined(isDesktop)) {
+                        if(typeof isDesktop === "undefined") {
                             detector();
                             return isDesktop;
                         } else {
@@ -67,7 +67,7 @@
                         }
                     },
                     isTablet: function() {
-                        if(_.isUndefined(isTablet)) {
+                        if(typeof isTablet === "undefined") {
                             detector();
                             return isTablet;
                         } else {
