@@ -1,8 +1,8 @@
 {
   "name": "angular-devices-detector",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Angular Devices Detector come with provider that identify the user device by user-agent.",
-  "main": "deviceDetecion-service.js",
+  "main": "angular-devices-detector.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,10 +12,10 @@
   },
   "keywords": [
     "device",
-    "detection",
+    "mobile detection",
     "mobile",
-    "detection",
-    "detection"
+    "device detection",
+    "desktop detection"
   ],
   "author": "Bnaya Zilberfarb",
   "license": "ISC",
