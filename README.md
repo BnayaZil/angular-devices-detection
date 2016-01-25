@@ -10,7 +10,7 @@ Angular Devices Detector come with provider that identify the user device and le
 * And using npm:
 
 ```
-npm install --save angular-devices-detector
+npm install --save-dev angular-devices-detector
 ```
 
 2. Include ```angular-devices-detector.js``` (or ```angular-devices-detector.min.js```) in your ```index.html```, after including Angular itself.
