@@ -1,7 +1,7 @@
 (function (){
     'use strict';
 
-    var module = angular.module('angular-devices-detector');
+    var module = angular.module('angular-devices-detector', []);
 
     module.provider('deviceDetection', [function () {
         var isMobile, isDesktop, device, nameObj = {};
